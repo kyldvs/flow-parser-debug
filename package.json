@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "refmterr": "3.1.9",
-    "flow-parser": "kyldvs/flow:flow_parser.opam#72effed3045b92d8031eb7a9f5f358db5ad00db5",
+    "flow-parser": "kyldvs/flow:flow_parser.opam#3ca13bfb5",
     "@opam/dune": "1.11.4",
     "@opam/merlin": "3.2.2",
     "@esy-ocaml/reason": "*"
