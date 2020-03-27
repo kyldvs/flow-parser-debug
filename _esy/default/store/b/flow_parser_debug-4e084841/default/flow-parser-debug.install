@@ -1,0 +1,11 @@
+lib: [
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/install/default/lib/flow-parser-debug/META"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/install/default/lib/flow-parser-debug/dune-package"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/install/default/lib/flow-parser-debug/opam"
+]
+bin: [
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/install/default/bin/flow-parser-debug"
+]
+doc: [
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/install/default/doc/flow-parser-debug/README.md"
+]

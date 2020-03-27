@@ -1,0 +1,316 @@
+#!/bin/bash
+# Command environment
+
+#
+# Built-in
+#
+export ESY__ROOT_PACKAGE_CONFIG_PATH="/Users/kad/dev/flow-parser-debug/package.json"
+export COLORTERM='truecolor'
+export HOME='/Users/kad'
+export LANG='en_US.UTF-8'
+export LC_CTYPE='en_US.UTF-8'
+export LOGNAME='kad'
+export LaunchInstanceID='E2075841-69AB-4DD6-8123-98E0E8C71033'
+export PATH='/Users/kad/.opam/default/bin:/Users/kad/.npm-packages/bin:/opt/facebook/hg/bin:/usr/local/munki:/opt/homebrew/bin:/opt/facebook/ops/scripts/chef:/opt/facebook/bin/biggrep:/usr/local/bin:/opt/facebook/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export PWD='/Users/kad/dev/flow-parser-debug'
+export SECURITYSESSIONID='186a8'
+export SHELL='/bin/bash'
+export SHLVL='2'
+export SSH_AUTH_SOCK='/var/folders/kr/5zy3gmms5dlffmr0h89tvymwb0qzrd/T//ssh-sIyNa1cEjbt1/agent.1946'
+export TERM='xterm-256color'
+export TMPDIR='/var/folders/kr/5zy3gmms5dlffmr0h89tvymwb0qzrd/T/'
+export USER='kad'
+export XPC_FLAGS='0x0'
+export XPC_SERVICE_NAME='0'
+export __CF_USER_TEXT_ENCODING='0x160BFF0D:0:0'
+export alfred_preferences='/Users/kad/Library/Application Support/Alfred 3/Alfred.alfredpreferences'
+export alfred_preferences_localhash='434924351f49421340e7dac27f7171c09a277f48'
+export alfred_theme='theme.bundled.dark'
+export alfred_theme_background='rgba(0,0,0,0.78)'
+export alfred_theme_selection_background='rgba(53,129,136,1.00)'
+export alfred_theme_subtext='0'
+export alfred_version='3.8.6'
+export alfred_version_build='972'
+export alfred_workflow_name='Alacritty'
+export alfred_workflow_uid='user.workflow.3CC42D4C-6752-406D-AAEB-0751171B0ECB'
+export OLDPWD='/Users/kad/dev'
+export LOCAL_ADMIN_SCRIPTS='/usr/facebook/ops/rc'
+export OPAMNOENVNOTICE='true'
+export OPAM_SWITCH_PREFIX='/Users/kad/.opam/default'
+export CAML_LD_LIBRARY_PATH='/Users/kad/.opam/default/lib/stublibs:/usr/local/lib/ocaml/stublibs:/usr/local/lib/ocaml'
+export OCAML_TOPLEVEL_PATH='/Users/kad/.opam/default/lib/toplevel'
+export MANPATH='/Users/kad/.npm-packages/share/man:/usr/local/share/man:/opt/homebrew/share/man:/Users/kad/.opam/default/man:/usr/share/man:/Library/Apple/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man'
+export SSH_AGENT_PID='1948'
+export _='/Users/kad/.npm-packages/bin/esy'
+export PATH="/Users/kad/dev/flow-parser-debug/_esy/default/bin:$PATH"
+export cur__etc="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/etc"
+export cur__share="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/share"
+export cur__toplevel="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/toplevel"
+export cur__stublibs="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/stublibs"
+export cur__doc="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/doc"
+export cur__man="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/man"
+export cur__lib="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/lib"
+export cur__sbin="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/sbin"
+export cur__bin="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/bin"
+export cur__install="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841"
+export cur__target_dir="/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841"
+export cur__original_root="/Users/kad/dev/flow-parser-debug"
+export cur__root="/Users/kad/dev/flow-parser-debug"
+export cur__dev="true"
+export cur__version="0.0.1"
+export cur__name="flow-parser-debug"
+
+#
+# @opam/seq@opam:base@d8d7de1d
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-827aeb53/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-827aeb53/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-827aeb53/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-827aeb53/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-827aeb53/bin:$PATH"
+
+#
+# @opam/jbuilder@opam:1.0+beta20.2@053ddcf2
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-fa3631b4/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-fa3631b4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-fa3631b4/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-fa3631b4/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-fa3631b4/bin:$PATH"
+
+#
+# @opam/atdgen-runtime@opam:2.0.0@60f6faab
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.0.0-051df925/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.0.0-051df925/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.0.0-051df925/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.0.0-051df925/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.0.0-051df925/bin:$PATH"
+
+#
+# @opam/atd@opam:2.0.0@e0ddd12f
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.0.0-a05eb8e2/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.0.0-a05eb8e2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.0.0-a05eb8e2/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.0.0-a05eb8e2/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.0.0-a05eb8e2/bin:$PATH"
+
+#
+# @opam/easy-format@opam:1.3.2@0484b3c4
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a71a4e21/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a71a4e21/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a71a4e21/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a71a4e21/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a71a4e21/bin:$PATH"
+
+#
+# @opam/biniou@opam:1.2.1@d7570399
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-c3a036d8/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-c3a036d8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-c3a036d8/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-c3a036d8/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-c3a036d8/bin:$PATH"
+
+#
+# @opam/conf-m4@opam:1@3b2b148a
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/bin:$PATH"
+
+#
+# @opam/ppx_derivers@opam:1.2.1@ecf0aa45
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-36694dc8/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-36694dc8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-36694dc8/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-36694dc8/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-36694dc8/bin:$PATH"
+
+#
+# @opam/cppo@opam:1.6.6@f4f83858
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-5439b29a/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-5439b29a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-5439b29a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-5439b29a/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-5439b29a/bin:$PATH"
+
+#
+# @opam/menhirSdk@opam:20200211@b2a79ec0
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-59132646/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-59132646/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-59132646/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-59132646/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-59132646/bin:$PATH"
+
+#
+# @opam/menhirLib@opam:20200211@93d0f001
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-615546f0/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-615546f0/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-615546f0/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-615546f0/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-615546f0/bin:$PATH"
+
+#
+# @reason-native/pastel@0.3.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-8283bd95/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-8283bd95/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-8283bd95/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-8283bd95/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-8283bd95/bin:$PATH"
+
+#
+# @reason-native/console@0.1.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-888d4529/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-888d4529/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-888d4529/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-888d4529/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-888d4529/bin:$PATH"
+
+#
+# @opam/re@opam:1.9.0@d4d5e13d
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-00b5b942/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-00b5b942/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-00b5b942/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-00b5b942/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-00b5b942/bin:$PATH"
+
+#
+# @opam/atdgen@opam:2.0.0@46af0360
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.0.0-31c3b411/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.0.0-31c3b411/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.0.0-31c3b411/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.0.0-31c3b411/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.0.0-31c3b411/bin:$PATH"
+
+#
+# @opam/yojson@opam:1.7.0@7056d985
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a6772bd2/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a6772bd2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a6772bd2/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a6772bd2/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a6772bd2/bin:$PATH"
+
+#
+# @opam/base-unix@opam:base@87d0b2eb
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/bin:$PATH"
+
+#
+# @opam/base-threads@opam:base@36803084
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/bin:$PATH"
+
+#
+# @esy-ocaml/substs@0.0.1@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/bin:$PATH"
+
+#
+# @opam/result@opam:1.5@6b753c82
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-20078b72/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-20078b72/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-20078b72/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-20078b72/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-20078b72/bin:$PATH"
+
+#
+# @opam/ocamlfind@opam:1.8.1@ff07b0f9
+#
+export OCAML_TOPLEVEL_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/toplevel"
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2ee578e3/bin:$PATH"
+
+#
+# @opam/ocaml-migrate-parsetree@opam:1.6.0@da2643e7
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.6.0-3ec899f6/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.6.0-3ec899f6/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.6.0-3ec899f6/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.6.0-3ec899f6/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.6.0-3ec899f6/bin:$PATH"
+
+#
+# @opam/merlin-extend@opam:0.5@a5dd7d4b
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-b77beb13/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-b77beb13/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-b77beb13/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-b77beb13/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-b77beb13/bin:$PATH"
+
+#
+# @opam/menhir@opam:20200211@26571604
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-7a4be7f1/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-7a4be7f1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-7a4be7f1/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-7a4be7f1/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-7a4be7f1/bin:$PATH"
+
+#
+# @opam/fix@opam:20200131@0ecd2f01
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-e42becd3/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-e42becd3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-e42becd3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-e42becd3/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-e42becd3/bin:$PATH"
+
+#
+# refmterr@3.3.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/refmterr-3.3.0-0c29beb7/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/refmterr-3.3.0-0c29beb7/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/refmterr-3.3.0-0c29beb7/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/refmterr-3.3.0-0c29beb7/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/refmterr-3.3.0-0c29beb7/bin:$PATH"
+
+#
+# ocaml@4.8.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/lib/ocaml/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/lib/ocaml"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/ocaml-4.8.0-1564046b/bin:$PATH"
+
+#
+# @opam/merlin@opam:3.3.3@d653b06a
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.3-c005247f/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.3-c005247f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.3-c005247f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.3-c005247f/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.3-c005247f/bin:$PATH"
+
+#
+# @opam/dune@opam:2.4.0@639d28a3
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.4.0-41c66c12/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.4.0-41c66c12/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.4.0-41c66c12/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.4.0-41c66c12/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.4.0-41c66c12/bin:$PATH"
+
+#
+# @esy-ocaml/reason@3.6.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-36891394/stublibs:/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-36891394/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-36891394/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-36891394/man:$MAN_PATH"
+export PATH="/Users/kad/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-36891394/bin:$PATH"
+
+#
+# Built-in
+#
+export OCAMLFIND_LDCONF="ignore"
+export OCAMLFIND_DESTDIR="/Users/kad/dev/flow-parser-debug/_esy/default/store/i/flow_parser_debug-4e084841/lib"
+export DUNE_BUILD_DIR="/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841"
+export DUNE_STORE_ORIG_SOURCE_DIR="true"
+export SHELL="env -i /bin/bash --norc --noprofile"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export SHELL="/bin/bash"
+exec "$@"

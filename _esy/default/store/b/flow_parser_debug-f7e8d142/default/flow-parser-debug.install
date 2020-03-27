@@ -1,0 +1,16 @@
+lib: [
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/FlowParserDebug.a"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/FlowParserDebug.cma"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/FlowParserDebug.cmxa"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/FlowParserDebug.cmxs"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/FlowParserDebug.re"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/META"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/dune-package"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/flowParserDebug.cmi"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/flowParserDebug.cmt"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/flowParserDebug.cmx"
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/lib/flow-parser-debug/opam"
+]
+doc: [
+  "/Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-f7e8d142/install/default/doc/flow-parser-debug/README.md"
+]

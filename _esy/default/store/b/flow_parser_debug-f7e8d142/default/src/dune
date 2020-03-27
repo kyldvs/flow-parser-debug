@@ -1,0 +1,6 @@
+(library
+  (name FlowParserDebug)
+  (public_name flow-parser-debug)
+  (libraries)
+)
+(include_subdirs unqualified)

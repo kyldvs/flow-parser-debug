@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "FlowParserDebug.cma"
+archive(native) = "FlowParserDebug.cmxa"
+plugin(byte) = "FlowParserDebug.cma"
+plugin(native) = "FlowParserDebug.cmxs"
