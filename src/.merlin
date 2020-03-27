@@ -1,4 +1,16 @@
 EXCLUDE_QUERY_DIR
-B /Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-4e084841/default/src/.FlowParserDebug.eobjs/byte
+B /Users/kad/.esy/3_____________________________________________________________________/i/flow_parser-11a06dff/lib/flow_parser
+B /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__gen-opam__c__0.5.2-488d727f/lib/gen
+B /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-e7aab25a/lib/bytes
+B /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__sedlex-opam__c__2.1-55d46f78/lib/sedlex
+B /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95b99a6a/lib/uchar
+B /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__wtf8-opam__c__1.0.2-8a05958e/lib/wtf8
+B /Users/kad/dev/flow-parser-debug/_esy/default/store/b/flow_parser_debug-1a750dcf/default/src/.FlowParserDebug.eobjs/byte
+S /Users/kad/.esy/3_____________________________________________________________________/i/flow_parser-11a06dff/lib/flow_parser
+S /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__gen-opam__c__0.5.2-488d727f/lib/gen
+S /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-e7aab25a/lib/bytes
+S /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__sedlex-opam__c__2.1-55d46f78/lib/sedlex
+S /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95b99a6a/lib/uchar
+S /Users/kad/.esy/3_____________________________________________________________________/i/opam__s__wtf8-opam__c__1.0.2-8a05958e/lib/wtf8
 S .
 FLG -w -40
