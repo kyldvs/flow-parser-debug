@@ -1,5 +1,5 @@
 {
-  "checksum": "90ecc360bd63b1bef45d5330cdff7241",
+  "checksum": "b9b1fc1d6d1561f05e63dfd914323098",
   "root": "flow-parser-debug@link-dev:./package.json",
   "node": {
     "refmterr@3.1.9@d41d8cd9": {
@@ -46,20 +46,20 @@
       "overrides": [],
       "dependencies": [
         "refmterr@3.1.9@d41d8cd9",
-        "flow-parser@github:kyldvs/flow:flow_parser.opam#3ca13bfb5@d41d8cd9",
+        "flow-parser@github:kyldvs/flow:flow_parser.opam#ecdcf5a81@d41d8cd9",
         "@opam/merlin@opam:3.2.2@e3edecdd",
         "@opam/dune@opam:1.11.4@a7ccb7ae", "@esy-ocaml/reason@3.5.2@d41d8cd9"
       ],
       "devDependencies": [ "ocaml@4.7.1004@d41d8cd9" ]
     },
-    "flow-parser@github:kyldvs/flow:flow_parser.opam#3ca13bfb5@d41d8cd9": {
+    "flow-parser@github:kyldvs/flow:flow_parser.opam#ecdcf5a81@d41d8cd9": {
       "id":
-        "flow-parser@github:kyldvs/flow:flow_parser.opam#3ca13bfb5@d41d8cd9",
+        "flow-parser@github:kyldvs/flow:flow_parser.opam#ecdcf5a81@d41d8cd9",
       "name": "flow-parser",
-      "version": "github:kyldvs/flow:flow_parser.opam#3ca13bfb5",
+      "version": "github:kyldvs/flow:flow_parser.opam#ecdcf5a81",
       "source": {
         "type": "install",
-        "source": [ "github:kyldvs/flow:flow_parser.opam#3ca13bfb5" ]
+        "source": [ "github:kyldvs/flow:flow_parser.opam#ecdcf5a81" ]
       },
       "overrides": [],
       "dependencies": [
